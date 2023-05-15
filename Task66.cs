@@ -25,5 +25,5 @@ int SumRec(int m, int n)
 }
 
 int numberM = GetNumber("Введите число m:");
-int numberN = GetNumber("Введите число n:");
+int numberN = GetNumber("Введите число n (n>m):");
 Console.WriteLine($"Сумма натуральных чисел от {numberM} до {numberN} = {SumRec(numberM, numberN)}");
